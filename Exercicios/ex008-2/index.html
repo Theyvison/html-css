@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="..//ex006/favicon.ico" type="image/x-icon">
+  <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+
+    <h2>Código-fonte / Pre-formatação</h2>
+
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScipt</p>
+
+    <pre> <!-- Tag pre = Pre formatação, ele deixa o texto da mesma maneira que foi escrito (espaços quebras de linha e etc) -->
+      <code> <!-- Tag code = deixa todos os caracteres do mesmo tamanho facilitando a leitura -->
+  num = int(input('Digite um número'))
+  if num % 2 == 0;
+    print(f'O número {num} é PAR')
+  else:
+    print(f'O número {num} é IMPAR')
+  print('Fim do programa')
+      </code>
+    </pre>
+
+    <h2>Citações simples</h2>
+
+    <p>Como diria um filosofo: <q>O computador é um burro muito rápido</q></p>
+    <!-- Tag q cria uma citação simples, coloca o conteudo entre aspas e indica que e uma citação -->
+
+    <h2>Citações completas</h2>
+
+    <p>Segundo Jeff Hoble, no seu livro HTML para Leigos:</p>
+
+    <blockquote cite="HTTP://www.linkdolivro.com">
+      A diferença entre elementos inline e um bloco de texto é importante. Os elementos HTML neste capítulo descrevem os blocos
+      de texto.
+    </blockquote>
+    <!-- tag blockquote cria uma citação completa, afasta o texto um pouco para o lado mostrando que e uma citação,
+    o parametro cite serve para colocar de onde veio a citação (URL do local)  -->
+
+    <h2>Abreviações</h2>
+
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr></p> <!-- tag abbr cria uma abreviação, no parametro title você coloca o texto inteiro da abreviação -->
+
+    <h2>Texto invertido</h2>
+
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML</bdo></p>
+    <!-- tag bdo inverte o texto, paramtro rtl = right to left (direita para esquerda), ltr = left to right (esquerda para a direita) -->
+</body>
+</html>
